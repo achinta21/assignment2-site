@@ -94,6 +94,11 @@
   }
   .some-button{
     margin-top:80px;
+    transition: transform 2s;
+   
+  }
+  .some-button:hover{
+    transform:scale(1.4);
   }
 
   .button-link{
@@ -104,8 +109,10 @@
     color: white;
     align-items: flex-start;
     padding: 10px 24px;
-    
   }
+  
+  
+
   /*************************
         top-players
    ********************** */
@@ -120,9 +127,7 @@
      background: #FFFFFF;
     margin-bottom:60px;
    }
-   .top-players{
-     
-   }
+   
    .players{
      display: grid;
      grid-template-columns: repeat(3,1fr);
@@ -159,10 +164,10 @@
 
   ************************ */
   .highlights-items{
-    margin-bottom: 120px;
+    margin-bottom: 100px;
   }
   .highlihts{
-    margin-top: 165px;
+    margin-top:100px;
     display: flex;
   }
   .highliht{
@@ -200,4 +205,50 @@
     width: 567px;
     height: 427px;
   }
+  /**************************
+        world best player
+   *************************** */
+   .best-players{
+    margin-top: 150px;
+   }
+  .rolandos{
+    display: flex;
+    grid-column-gap:110px;
+  }
+  .rolando-banner img{
+    
+    width: 500px;
+    height: 427px;
+  }
+  .banner-histori{
+    display: grid;
+    margin-right:66px;
+    width: 469px;
+    height: 309px; 
+  }
+  /*********************
+            footer
+   ******************** */
   
+   footer{
+     margin-top: 158px;
+     margin-bottom: 80px;
+     display: grid;
+     justify-content: center;
+   }
+   footer img{
+     display: grid;
+    width: 483.87px;
+    height: 110px;
+   }
+   .footer-item{
+     text-align: center;
+   }
+   .fab{
+     padding-right:14px;
+     color: #969BAB;
+     margin-top: 20px;
+   }
+   h4{
+     color: #000000;
+   }
