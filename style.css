@@ -159,6 +159,78 @@
    font-size: 16px;
    margin: 10px 0px;
  }
+
+
+/****************
+ center-playes
+
+ ********************/
+
+
+ .centers{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 30px;
+ }
+ .center{
+  width: 300px;
+  height: 474px;
+  padding:15px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+ }
+ .center img{
+  width: 300px;
+  height: 256px;
+ }
+
+
+ /***********************
+      midel player
+
+  ***************** */
+
+
+  .midels{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+   }
+   .midel{
+    width: 300px;
+    height: 474px;
+    padding:15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   }
+   .midel img{
+    width: 300px;
+    height: 256px;
+   }
+
+   /******************
+    sticker-player
+
+    *************** */
+
+    .stickers{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-column-gap: 30px;
+     }
+     .sticker{
+      width: 300px;
+      height: 474px;
+      padding:15px;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     }
+     .sticker img{
+      width: 300px;
+      height: 256px;
+     }
+  
+             
  /**************************
      All Highlights
 
@@ -252,3 +324,8 @@
    h4{
      color: #000000;
    }
+   /**********************
+         media query
+
+    **********************/
+   
