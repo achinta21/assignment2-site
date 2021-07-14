@@ -115,7 +115,7 @@
   /*************************
         top-players
    ********************** */
-   
+
    main{
      display: grid;
      justify-content: center;
@@ -331,7 +331,7 @@
  @media only screen and (max-width:688px) {
    .continer{
      width: 100%;
-     height: 100%;
+     height:auto;
      margin: 0;
      overflow: hidden;
    }
@@ -345,48 +345,55 @@
      justify-content: center;
      align-items: center;
    }
-  
-   .nav-area{
-     display: block;
- }
- .nav-area nav{
-   display: none;
- }
- header{
-   padding: 0;
-   margin: 0;
-   width: 100%;
-   height: 100%;
-   display: block;
-  
- }
- 
- .top-banner{
-   display: block;
-  
- }
- .banner-item{
-   display: block;
+   /********* 
+      header
+   ***********/
+   h1{
+    font-size: 35px;
    
- } 
-.highlihts,.rolandos{
-   display: block;
-   grid-template-columns: repeat(1.1fr);
- }
- .highliht,.rolando{
-   flex-direction: column;
- }
- .highliht,.rolando{
-   justify-content: center;
-   align-items: center;
-   
- }
- .highliht-banner{
-   margin-top: 150px;
- }
+  }
+  .top-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .top-banner .button-link{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-area{
+    width: 100%;
+    padding-right:15px;
+    box-sizing: border-box;
+  }
+  .nav-area ul {
+    display: none;
+  }
+  header{
+    width: 100%;
+    height:auto;
+  }
+
+  .highlihts,.rolandos{
+    display: block;
+    text-align: center;
+  }
+  .highliht,.rolando {
+    margin-right: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .highliht h1, .banner-title,.banner-histori{
+    width: 100%;
+    height: auto;
+  }
  footer{
    width: 100%;
-   height: 100%;
+   height: auto;
    
  }
  .footer-item{
